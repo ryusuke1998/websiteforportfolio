@@ -8,9 +8,9 @@ $marginOfSection: 40px 0 40px;
 body {
     width: 100%;
     .body_inner {
-        width: 70%;
         margin: $marginForCenter;
         header {
+            width: 70%;
             padding: $sectionPadding;
             margin: $marginForCenter;
             .header_inside {
@@ -43,8 +43,9 @@ body {
         }
 
         .top_section {
+            width: 70%;
             padding: $sectionPadding;
-            margin: $marginOfSection;
+            margin: $marginForCenter;
             display: flex;
             justify-content: space-around;
             align-items: center;
