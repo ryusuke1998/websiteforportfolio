@@ -8,38 +8,38 @@ $marginOfSection: 40px 0 40px;
 body {
     width: 100%;
     .body_inner {
-        padding: 40px 0 40px;
-        width: 80%;
-        margin: 0 auto;
-    header {
-        margin: 0 auto;
-        .header_inside {
-            display: flex;
-            justify-content: space-between;
+        width: 70%;
+        margin: $marginForCenter;
+        header {
+            padding: $sectionPadding;
+            margin: $marginForCenter;
+            .header_inside {
+                display: flex;
+                justify-content: space-between;
 
-            .header_title {
-                font-size: 30px;
-            }
-            .hamburger_menu {
-                width: 30px;
-                height: 25px;
-                border-top: 3px solid #000;
-                border-bottom: 3px solid #000;
-                position: relative;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    top: 50%;
-                    left: 0;
-                    right: 0;
+                .header_title {
+                    font-size: 30px;
+                }
+                .hamburger_menu {
+                    width: 30px;
+                    height: 25px;
                     border-top: 3px solid #000;
-                    transform: translate(0, -50%);
+                    border-bottom: 3px solid #000;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        right: 0;
+                        border-top: 3px solid #000;
+                        transform: translate(0, -50%);
+                    }
                 }
             }
+            .navs {
+                display: none;
+            }
         }
-        .navs {
-            display: none;
-        }
-    }
     }
 }

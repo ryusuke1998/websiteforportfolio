@@ -3,12 +3,12 @@ body {
 }
 
 body .body_inner {
-  padding: 40px 0 40px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
 body .body_inner header {
+  padding: 40px 0 40px;
   margin: 0 auto;
 }
 
