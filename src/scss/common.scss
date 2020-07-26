@@ -1,4 +1,5 @@
 $tealcolor: #009688;
+$whitecolor: #fff;
 $h1FontSize: 30px;
 $sectionPadding: 80px 0 80px;
 $marginForCenter: 0 auto;
@@ -56,6 +57,29 @@ body {
             }
             img {
                 width: 40%;
+            }
+        }
+
+        .introduction {
+            background: $tealcolor;
+            height: 700px;
+            .intro_inner {
+                width: 70%;
+                margin: $marginForCenter;
+                padding: $sectionPadding;
+                text-align: center;
+                color: $whitecolor;
+                .intro_title {
+                    font-size: $h1FontSize;
+                    margin: $marginOfSection;
+                }
+                .intro_desc {
+                    line-height: 2;
+                    .intro_profile {
+                        width: 50%;
+                        margin: $marginForCenter;
+                    }
+                }
             }
         }
     }

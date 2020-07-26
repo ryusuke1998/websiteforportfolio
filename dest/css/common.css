@@ -61,3 +61,30 @@ body .body_inner .top_section .top_descs {
 body .body_inner .top_section img {
   width: 40%;
 }
+
+body .body_inner .introduction {
+  background: #009688;
+  height: 700px;
+}
+
+body .body_inner .introduction .intro_inner {
+  width: 70%;
+  margin: 0 auto;
+  padding: 80px 0 80px;
+  text-align: center;
+  color: #fff;
+}
+
+body .body_inner .introduction .intro_inner .intro_title {
+  font-size: 30px;
+  margin: 40px 0 40px;
+}
+
+body .body_inner .introduction .intro_inner .intro_desc {
+  line-height: 2;
+}
+
+body .body_inner .introduction .intro_inner .intro_desc .intro_profile {
+  width: 50%;
+  margin: 0 auto;
+}
