@@ -42,3 +42,21 @@ body .body_inner header .header_inside .hamburger_menu:before {
 body .body_inner header .navs {
   display: none;
 }
+
+body .body_inner .top_section {
+  padding: 40px 0 40px;
+  margin: 40px 0 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body .body_inner .top_section .top_descs {
+  line-height: 3;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+body .body_inner .top_section img {
+  width: 40%;
+}

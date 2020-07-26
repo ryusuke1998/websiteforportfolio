@@ -41,5 +41,21 @@ body {
                 display: none;
             }
         }
+
+        .top_section {
+            padding: $sectionPadding;
+            margin: $marginOfSection;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .top_descs {
+                line-height: 3;
+                font-size: $h1FontSize;
+                letter-spacing: 2px;
+            }
+            img {
+                width: 40%;
+            }
+        }
     }
 }
