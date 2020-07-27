@@ -151,6 +151,10 @@ body {
                                 border-radius: 10px;
                             }
                         }
+                        h2 {
+                            margin: $marginOfSection;
+                            font-size: 25px;
+                        }
                         .works_desc {
                             margin: $marginOfSection;
                             line-height: 2;

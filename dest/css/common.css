@@ -168,6 +168,11 @@ body .body_inner .works .works_inner .works_items .works_item .img_outer img {
   border-radius: 10px;
 }
 
+body .body_inner .works .works_inner .works_items .works_item h2 {
+  margin: 40px 0 40px;
+  font-size: 25px;
+}
+
 body .body_inner .works .works_inner .works_items .works_item .works_desc {
   margin: 40px 0 40px;
   line-height: 2;
