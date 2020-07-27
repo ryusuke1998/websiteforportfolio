@@ -1,0 +1,205 @@
+$tealcolor: #009688;
+$whitecolor: #fff;
+$h1FontSize: 30px;
+$sectionPadding: 80px 0 80px;
+$marginForCenter: 0 auto;
+$marginOfSection: 40px 0 40px;
+$deskTopSize: 1920px;
+$notePCSize: 1440px;
+$smallPCSize: 1024px;
+$mediumtabletSize: 768px;
+
+
+body {
+    width: 100%;
+    .body_inner {
+        margin: $marginForCenter;
+        header {
+            width: 90%;
+            padding: $sectionPadding;
+            margin: $marginForCenter;
+            .header_inside {
+                display: flex;
+                justify-content: space-between;
+
+                .header_title {
+                    font-size: 30px;
+                }
+                .hamburger_menu {
+                    width: 30px;
+                    height: 25px;
+                    border-top: 2px solid #000;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        right: 0;
+                        border-top: 2px solid #000;
+                        transform: translate(0, -50%);
+                    }
+                    &:after {
+                        content: '';
+                        border-top: 2px solid #000;
+                        position: absolute;
+                        top: 100%;
+                        right: 0;
+                        left: 0;
+                    }
+                }
+            }
+            .navs {
+                display: none;
+            }
+        }
+
+        .top_section {
+            width: 90%;
+            padding: $sectionPadding;
+            margin: $marginForCenter;
+            text-align: center;
+            .top_descs {
+                line-height: 3;
+                font-size: $h1FontSize;
+                letter-spacing: 2px;
+            }
+            img {
+                width: 40%;
+            }
+        }
+
+        .introduction {
+            background: $tealcolor;
+            height: 700px;
+            .intro_inner {
+                width: 90%;
+                margin: $marginForCenter;
+                padding: $sectionPadding;
+                text-align: center;
+                color: $whitecolor;
+                .intro_title {
+                    font-size: $h1FontSize;
+                    margin: $marginOfSection;
+                }
+                .intro_desc {
+                    line-height: 2;
+                    .intro_profile {
+                        width: 50%;
+                        margin: $marginForCenter;
+                    }
+                }
+            }
+        }
+
+        .skills {
+            position: relative;
+            height: 1300px;
+            .skills_inner {
+                width: 100%;
+                position: absolute;
+                transform: translate(0, -10%);
+                .skills_item {
+                    margin: 20px auto;
+                    border-radius: 20px;
+                    background: $whitecolor;
+                    width: 80%;
+                    text-align: center;
+                    border: 1px solid #d3d3d3;
+                    .skills_icon {
+                        color: $tealcolor;
+                        font-size: 40px;
+                        margin: $marginOfSection;
+                    }
+                    h2 {
+                        font-size: 20px;
+                        margin: 0 0 40px;
+                    }
+                    .skills_desc {
+
+                        .skills_desc_p {
+                            height: 40px;
+                        }
+                        .skills_desc_h3 {
+                            color: $tealcolor;
+                            height: 30px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .works {
+            .works_inner {
+                width: $smallPCSize*0.7;
+                padding: $sectionPadding;
+                margin: $marginForCenter;
+                h1 {
+                    font-size: $h1FontSize;
+                    text-align: center;
+                }
+                .works_items {
+                    margin: $marginOfSection;
+                    padding: $sectionPadding;
+                    .works_item {
+                        margin: $marginForCenter;
+                        padding: $sectionPadding;
+                        width: 533px;
+                        .img_outer {
+                            width: 100%;
+                            height: 300px;
+                            border-radius: 10px;
+                            border: 1px solid #d3d3d3;
+                            margin: $marginForCenter;
+                            img {
+                                width: 100%;
+                                border-radius: 10px;
+                            }
+                        }
+                        h2 {
+                            margin: $marginOfSection;
+                            font-size: 25px;
+                        }
+                        .works_desc {
+                            margin: $marginOfSection;
+                            line-height: 2;
+                            letter-spacing: 1px;
+                            height: 100px;
+                        }
+                        .works_used_skill {
+                            margin: $marginOfSection;
+                            .one_of_skills {
+                                margin: 20px;
+                                display: flex;
+                                h3 {
+                                    color: $tealcolor;
+                                    width: 40%;
+                                    margin-right: 40px;
+                                }
+                                p {
+                                    width: 60%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            margin-top: auto;
+            background: $tealcolor;
+            height: 100px;
+            position: relative;
+            .footer_desc {
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -90%);
+                color: $whitecolor;
+                text-align: center;
+            }
+        }
+    }
+}
