@@ -82,7 +82,7 @@ body .body_inner .introduction .intro_inner {
 }
 
 body .body_inner .introduction .intro_inner .intro_title {
-  font-size: 20px;
+  font-size: 18px;
   margin: 40px 0 40px;
 }
 
@@ -156,7 +156,7 @@ body .body_inner .works .works_inner .works_items {
 body .body_inner .works .works_inner .works_items .works_item {
   margin: 0 auto;
   padding: 80px 0 80px;
-  width: 250px;
+  width: 280px;
 }
 
 body .body_inner .works .works_inner .works_items .works_item .img_outer {
