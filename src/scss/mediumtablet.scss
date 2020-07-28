@@ -6,6 +6,8 @@ $marginForCenter: 0 auto;
 $marginOfSection: 40px 0 40px;
 $deskTopSize: 1920px;
 $notePCSize: 1440px;
+$smallPCSize: 1024px;
+$mediumtabletSize: 768px;
 
 
 body {
@@ -13,7 +15,7 @@ body {
     .body_inner {
         margin: $marginForCenter;
         header {
-            width: $deskTopSize*0.7;
+            width: 90%;
             padding: $sectionPadding;
             margin: $marginForCenter;
             .header_inside {
@@ -53,12 +55,10 @@ body {
         }
 
         .top_section {
-            width: $deskTopSize*0.7;
+            width: 90%;
             padding: $sectionPadding;
             margin: $marginForCenter;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            text-align: center;
             .top_descs {
                 line-height: 3;
                 font-size: $h1FontSize;
@@ -73,7 +73,7 @@ body {
             background: $tealcolor;
             height: 700px;
             .intro_inner {
-                width: $deskTopSize*0.7;
+                width: 90%;
                 margin: $marginForCenter;
                 padding: $sectionPadding;
                 text-align: center;
@@ -94,19 +94,16 @@ body {
 
         .skills {
             position: relative;
-            height: 450px;
+            height: 1300px;
             .skills_inner {
+                width: 100%;
                 position: absolute;
-                left: 50%;
-                transform: translate(-50%, -30%);
-                width: $deskTopSize*0.7;
-                display: flex;
-                justify-content: center;
+                transform: translate(0, -10%);
                 .skills_item {
-                    margin: 10px;
+                    margin: 20px auto;
                     border-radius: 20px;
                     background: $whitecolor;
-                    width: 330px;
+                    width: 80%;
                     text-align: center;
                     border: 1px solid #d3d3d3;
                     .skills_icon {
@@ -135,7 +132,7 @@ body {
 
         .works {
             .works_inner {
-                width: $deskTopSize*0.7;
+                width: $smallPCSize*0.7;
                 padding: $sectionPadding;
                 margin: $marginForCenter;
                 h1 {
@@ -145,9 +142,9 @@ body {
                 .works_items {
                     margin: $marginOfSection;
                     padding: $sectionPadding;
-                    display: flex;
-                    justify-content: space-around;
                     .works_item {
+                        margin: $marginForCenter;
+                        padding: $sectionPadding;
                         width: 533px;
                         .img_outer {
                             width: 100%;
