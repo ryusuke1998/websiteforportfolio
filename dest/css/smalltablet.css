@@ -22,8 +22,8 @@ body .body_inner header .header_inside .header_title {
 }
 
 body .body_inner header .header_inside .hamburger_menu {
-  width: 30px;
-  height: 25px;
+  width: 15px;
+  height: 10px;
   border-top: 2px solid #000;
   position: relative;
 }
